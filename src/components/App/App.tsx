@@ -1,10 +1,10 @@
 import type Votes from "../../types/votes";
 import type { VoteType } from "../../types/votes";
 import css from "./App.module.css";
-import CafeInfo from "../CafeInfo/CafeInfo";
+import CafeInfo from "../CafeInfo+/CafeInfo";
 import { useState } from "react";
-import VoteOptions from "../VoteOptions/VoteOptions";
-import VoteStats from "../VoteStats/VoteStats";
+import VoteOptions from "../VoteOptions+/VoteOptions";
+import VoteStats from "../VoteStats+/VoteStats";
 import Notification from "../Notification/Notification";
 import "modern-normalize/modern-normalize.css";
 
